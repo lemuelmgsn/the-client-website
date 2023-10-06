@@ -1,23 +1,115 @@
-
+html{
+    scroll-behavior: smooth;
+}
 .topnav{
+    font-weight: 400;
     background-color: #ffffff;
     overflow: hidden;
+    display: inline;
+    border-bottom: 1px solid #dddddd;
+    box-shadow: 0px 0px #dbdbdb;
+    background-color: #ffffff;
+    width: 97%;
+    position: fixed;
+    top: 0;
 }
 .topnav a{
     font-family: sans-serif;
-    float: left;
-    color: cadetblue;
+    float: right;
+    color: #84b1c7;
     text-align: center;
-    padding: 14px 16px;
+    padding: 23px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
 }
 .topnav a:hover{
+    background-color: transparent;
+    color: #4ECD5D;
+    border-bottom: 3px #000000;
+}
+.Logo{
+    font-family: sans-serif;
+    color: #71b0c8;
+    display: inline;  
+    padding: 15px 20px  
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
+}
+.email{
+    color: cadetblue;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 17px;
+
+}
+form{
+    text-align: center;
+}
+.motto{
+    width: 12em;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    font-family: sans-serif;
+    color: rgb(59, 59, 59);
+}
+span{
+    color: #71b0c8;
     background-color: #ffffff;
-    color: #4ECD5D
+    border-radius: 5px;
+}
+.kopjes{
+    text-align: center;
+    font-family: sans-serif;
+    color: #7faec5;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+section h2{
+    font-size: 30px;
+}
+section p{
+    color: #446874;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    width: 30em;
+    text-align: center;
+}
+section{
+    padding: 50px;
+    text-align: center;
+}
+.welkom{
+    background-color: #fafafa;
+}
+.waarom{
+    background-color: #fafafa;
+}
+.contact{
+    background-color: #fafafa;
 }
 
-h1{
-    font-family: sans-serif;
-    color: cadetblue;
+
+
+
+
+.brain-app p{
+float: left;
+padding-top: 60px;
+padding-left: 20px;
+}
+.app{
+    padding-top: 20px;
+    height: 500px;
+    width: 300px;
 }
