@@ -1,6 +1,12 @@
 html{
     scroll-behavior: smooth;
 }
+li{
+    list-style-type: none;
+}
+ul{
+    list-style-type: none;
+}
 .topnav{
     font-weight: 400;
     background-color: #ffffff;
@@ -9,7 +15,8 @@ html{
     border-bottom: 1px solid #dddddd;
     box-shadow: 0px 0px #dbdbdb;
     background-color: #ffffff;
-    width: 97%;
+    width: 100%;
+    height: 80px;
     position: fixed;
     top: 0;
 }
@@ -18,7 +25,7 @@ html{
     float: right;
     color: #84b1c7;
     text-align: center;
-    padding: 23px;
+    padding: 20px;
     text-decoration: none;
     font-size: 20px;
 }
@@ -28,10 +35,14 @@ html{
     border-bottom: 3px #000000;
 }
 .Logo{
+    float: left;
     font-family: sans-serif;
     color: #71b0c8;
     display: inline;  
-    padding: 15px 20px  
+    padding: 15px 20px;  
+    width: 130px;
+    height: 60px;
+    margin-left: 30px;
 }
 .center{
     display: block;
@@ -97,6 +108,7 @@ section{
 }
 .contact{
     background-color: #fafafa;
+    text-align: center;
 }
 
 
