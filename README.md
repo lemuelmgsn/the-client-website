@@ -20,6 +20,7 @@ Zoals je hieronder kunt zien is het een website met als voorpagina een foto om t
 ![2023-10-04 (8)](https://github.com/lemuelmgsn/the-client-website/assets/144004180/6458fbbd-320f-4138-8731-73f744fc0342)
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
+
 https://lemuelmgsn.github.io/the-client-website/
 
 ## Kenmerken
