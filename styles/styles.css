@@ -132,8 +132,7 @@ section{
 }
 
 
-
-
+/* de b-rain app */
 
 .brain-app p{
 float: left;
@@ -149,12 +148,7 @@ padding-left: 90px;
 }
 
 
-
-
-
-
-
-
+/* Landpagina overlay foto */
 
 .image-container{
     position: relative;
@@ -178,33 +172,18 @@ padding-left: 90px;
     padding: 10px 20px; 
     font-size: 36px; 
     text-align: center;
-  }
+}
 
+
+
+/* Lees meer button/checkbox bij "Wat is b-RAIN?" */
 
 .ul-test{
     display: flex;
     overflow: scroll;
     overscroll-behavior: contain auto;
     scroll-snap-align: center;
-   
 }
-.img-test{
-    width: 1000px;
-    height: 500px;
-    left: 10%;
-    scroll-snap-align: center;
-}
-.img-test-2{
-    width: 1000px;
-    height: 500px;
-    left: 10%;
-    scroll-snap-align: center;
-}
-
-
-
-
-
 .test-read {
     margin: 0;
     padding: 0;
@@ -216,7 +195,6 @@ padding-left: 90px;
     padding-right: 20px;
     padding-top: 50px;
 }
-
 .card{
     background-color: #f5f5f5;
     width: 500px;
@@ -224,24 +202,18 @@ padding-left: 90px;
     border-radius: 10px;
     line-height: 1.4;
     text-align: left;
-
 }
 #ch{
     display: none;
 }
-
 #ch:checked ~ .content {
     display: block;
-
 }
-
 #ch:checked ~ label{
     display: none;
 }
-
 .content{
     display: none;
-
 }
 label{
     display: inline-block;
@@ -251,15 +223,55 @@ label{
     padding: 3px 13px;
     border-radius: 5px;
     margin-top: 12px;
-
 }
 .wat-brain-foto{
     float: left;
     border-radius: 30px;
     height: 400px;
 }
+
+/* Waarom b-RAIN? regenton foto*/
+
 .regenton-voordelen{
     float: right;
+}
+
+
+
+
+
+
+
+control-me::after {
+    content: "😃";
+    font-size: 100px;
+}
+#toggle:checked ~ .control-me::after {
+    content: "Traditionele regentonnen zijn een geweldige manier om regenwater op te vangen en te hergebruiken, maar ze hebben beperkingen. Vaak moeten ze handmatig worden beheerd, en dat kan een hele klus zijn. Bovendien kunnen ze overlopen bij zware regenval, wat leidt tot verlies van water en mogelijke schade. Aan de andere kant kunnen ze leeg raken tijdens droge periodes, waardoor we gedwongen worden om ons toevlucht te nemen tot kostbaar kraanwater. Wat b-RAIN onderscheidt, is de verhoogde effectiviteit van de regenwateropslag.";
+    color: #446874;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    width: 30em;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+label {
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4ECD5D;
+    padding: 3px 13px;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+
+.visually-hidden {
+    position: absolute;
+    left: -100vw;
+    
+    /* Note, you may want to position the checkbox over top the label and set the opacity to zero instead. It can be better for accessibilty on some touch devices for discoverability. */
 }
 
 
