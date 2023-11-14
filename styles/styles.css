@@ -219,7 +219,9 @@ label{
     display: inline-block;
     cursor: pointer;
     color: #fff;
-    background-color: #4ECD5D;
+    /* background-color: #4ECD5D; */
+    /* background-color: #106300; */
+    background-color: #006319;
     padding: 3px 13px;
     border-radius: 5px;
     margin-top: 12px;
@@ -235,10 +237,6 @@ label{
 .regenton-voordelen{
     float: right;
 }
-
-
-
-
 
 
 
@@ -261,7 +259,9 @@ label {
     display: inline-block;
     cursor: pointer;
     color: #fff;
-    background-color: #4ECD5D;
+    /* background-color: #4ECD5D; */
+    /* background-color: #106300; */
+    background-color: #006319;
     padding: 3px 13px;
     border-radius: 5px;
     margin-top: 12px;
