@@ -1,3 +1,25 @@
+:root{
+    /* -----primary colors----- */
+    --font-color: #384b61;
+    --font-color-titles: #7FAEC5;
+
+    --background-color: #ffffff;
+
+    --button-color: #4ECD5D;
+    --button-font: #ffffff;
+
+    /* -----secondary colors----- */
+    --background-color-2: #fafafa;
+    --button-color-hover: #0E373F;
+    --button-font-hover: #ffffff;
+
+    --button-color-2: #9CD67D;
+    --button-font-2: #0C3F0A;
+
+    --button-color-3: #006319;
+    --button-font-3: #FFFFFE;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -273,6 +295,7 @@ label {
     
     /* Note, you may want to position the checkbox over top the label and set the opacity to zero instead. It can be better for accessibilty on some touch devices for discoverability. */
 }
+
 
 
 
